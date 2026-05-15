@@ -1,4 +1,5 @@
 import "./App.css";
+import CatFact from "./CatFact";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <img
         src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
         alt="rocket"
-        width="200"
       />
+
+      <CatFact />
     </div>
   );
 }
